@@ -2,7 +2,6 @@ import { setupWorker } from 'msw/browser'
 
 // Handlers
 import { handlerAppBarSearch } from '@db/app-bar-search/index'
-import { handlerAppsAcademy } from '@db/apps/academy/index'
 import { handlerAppsCalendar } from '@db/apps/calendar/index'
 import { handlerAppsChat } from '@db/apps/chat/index'
 import { handlerAppsEcommerce } from '@db/apps/ecommerce/index'
@@ -20,7 +19,6 @@ import { handlerPagesProfile } from '@db/pages/profile/index'
 
 const worker = setupWorker(
   ...handlerAppsEcommerce,
-  ...handlerAppsAcademy,
   ...handlerAppsInvoice,
   ...handlerAppsUsers,
   ...handlerAppsEmail,

@@ -1,67 +1,6 @@
 export default [
   { heading: 'Apps & Pages' },
   {
-    title: 'Ecommerce',
-    icon: { icon: 'ri-shopping-bag-3-line' },
-    children: [
-      {
-        title: 'Dashboard',
-        to: 'apps-ecommerce-dashboard',
-      },
-      {
-        title: 'Product',
-        children: [
-          { title: 'List', to: 'apps-ecommerce-product-list' },
-          { title: 'Add', to: 'apps-ecommerce-product-add' },
-          { title: 'Category', to: 'apps-ecommerce-product-category-list' },
-        ],
-      },
-      {
-        title: 'Order',
-        children: [
-          { title: 'List', to: 'apps-ecommerce-order-list' },
-          { title: 'Details', to: { name: 'apps-ecommerce-order-details-id', params: { id: '9042' } } },
-        ],
-      },
-      {
-        title: 'Customer',
-        children: [
-          { title: 'List', to: 'apps-ecommerce-customer-list' },
-          { title: 'Details', to: { name: 'apps-ecommerce-customer-details-id', params: { id: 478426 } } },
-        ],
-      },
-      {
-        title: 'Manage Review',
-        to: 'apps-ecommerce-manage-review',
-      },
-      {
-        title: 'Referrals',
-        to: 'apps-ecommerce-referrals',
-      },
-      {
-        title: 'Settings',
-        to: 'apps-ecommerce-settings',
-      },
-    ],
-  },
-  {
-    title: 'Academy',
-    icon: { icon: 'ri-graduation-cap-line' },
-    children: [
-      { title: 'Dashboard', to: 'apps-academy-dashboard' },
-      { title: 'My Course', to: 'apps-academy-my-course' },
-      { title: 'Course Details', to: 'apps-academy-course-details' },
-    ],
-  },
-  {
-    title: 'Logistics',
-    icon: { icon: 'ri-car-line' },
-    children: [
-      { title: 'Dashboard', to: 'apps-logistics-dashboard' },
-      { title: 'Fleet', to: 'apps-logistics-fleet' },
-    ],
-  },
-  {
     title: 'Email',
     icon: { icon: 'ri-mail-open-line' },
     to: 'apps-email',

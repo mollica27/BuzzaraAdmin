@@ -50,20 +50,7 @@ const createApp = [
 ]
 
 const categories = [
-  {
-    icon: 'ri-bar-chart-box-line',
-    color: 'info',
-    title: 'CRM Application',
-    subtitle: 'Scales with any business',
-    slug: 'crm-application',
-  },
-  {
-    icon: 'ri-shopping-cart-line',
-    color: 'success',
-    title: 'Ecommerce Platforms',
-    subtitle: 'Grow Your Business With App',
-    slug: 'ecommerce-application',
-  },
+
   {
     icon: 'ri-video-upload-line',
     color: 'error',

@@ -32,9 +32,6 @@ const suggestionGroups: SuggestionGroup[] = [
     title: 'Popular Searches',
     content: [
       { icon: 'ri-bar-chart-line', title: 'Analytics', url: { name: 'dashboards-analytics' } },
-      { icon: 'ri-pie-chart-2-line', title: 'CRM', url: { name: 'dashboards-crm' } },
-      { icon: 'ri-shopping-bag-3-line', title: 'eCommerce', url: { name: 'dashboards-ecommerce' } },
-      { icon: 'ri-car-line', title: 'Logistics', url: { name: 'apps-logistics-dashboard' } },
     ],
   },
   {
@@ -73,16 +70,8 @@ const noDataSuggestions: Suggestion[] = [
     icon: 'ri-bar-chart-line',
     url: { name: 'dashboards-analytics' },
   },
-  {
-    title: 'CRM',
-    icon: 'ri-pie-chart-2-line',
-    url: { name: 'dashboards-crm' },
-  },
-  {
-    title: 'eCommerce',
-    icon: 'ri-shopping-bag-3-line',
-    url: { name: 'dashboards-ecommerce' },
-  },
+
+
 ]
 
 const searchQuery = ref('')

@@ -80,83 +80,9 @@ const statisticsVertical = [
       <CrmOrganicSessions />
     </VCol>
 
-    <!-- 👉 Project Timeline -->
-    <VCol
-      cols="12"
-      md="8"
-    >
-      <CrmProjectTimeline />
-    </VCol>
 
-    <!-- 👉 Weekly Overview -->
-    <VCol
-      cols="12"
-      sm="6"
-      md="4"
-    >
-      <CrmWeeklyOverview />
-    </VCol>
 
-    <!-- 👉 Social Network Visits -->
-    <VCol
-      cols="12"
-      sm="6"
-      md="4"
-    >
-      <CrmSocialNetworkVisits />
-    </VCol>
-
-    <!-- 👉 Monthly Budget -->
-    <VCol
-      cols="12"
-      md="4"
-      sm="6"
-    >
-      <CrmMonthlyBudget />
-    </VCol>
-
-    <!-- 👉 Meeting Schedule -->
-    <VCol
-      cols="12"
-      md="4"
-      sm="6"
-    >
-      <CrmMeetingSchedule />
-    </VCol>
-
-    <!-- 👉 External Links -->
-    <VCol
-      cols="12"
-      sm="6"
-      md="4"
-    >
-      <CrmExternalLinks />
-    </VCol>
-
-    <!-- 👉 Payment History -->
-    <VCol
-      cols="12"
-      sm="6"
-      md="4"
-    >
-      <CrmPaymentHistory />
-    </VCol>
-
-    <!-- 👉 Most Sales in Countries -->
-    <VCol
-      cols="12"
-      md="4"
-    >
-      <CrmMostSalesInCountries />
-    </VCol>
-
-    <!-- 👉 User List -->
-    <VCol
-      cols="12"
-      md="8"
-    >
-      <CrmUserList />
-    </VCol>
+    
   </VRow>
 </template>
 
